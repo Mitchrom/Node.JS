@@ -1,0 +1,12 @@
+Documentation: site Node.JS ou devdocs.io/node/
+
+http.createServer(): permet de créer le serveur
+    cependant, le module "http" doit être inclut au préalable avec la commande "require()", "let http = require('http')"
+
+"on" = "addEventListenner"
+
+function(request, response) {}
+
+server.listen() permet de lire le serveuur sur un port défini
+
+response.writeHead(statusCode[, statusMessage][headers])
